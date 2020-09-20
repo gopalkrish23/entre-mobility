@@ -1,0 +1,55 @@
+div{
+    color: black;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+
+/* clients section */
+blockquote .sng-inline--fa{
+    color: #1ebba3;
+    margin: 1rem;
+}
+
+.clients-hr{
+border-top: .05rem solid #1ebba3;
+}
+
+/* contact section */
+footer{
+    background-color: black;
+    color: white;
+    padding: 2rem 0 2rem;
+}
+
+footer div{
+    background-color: black;
+    color: white;
+}
+
+footer hr{
+    border-color: #e83333;
+}
+
+footer img{
+    height: 7rem;
+    margin: 1.5rem 0;
+}
+
+footer a{
+    color: white;
+}
+
+footer svg.svg-inline--fa{
+    font-size: 1.6rem;
+    margin: 1.2rem 0.5rem 0 0;
+}
+
+footer svg.svg-inline--fa:hover{
+    background-color: #1ebba3 !important;
+}
+
+hr.socket{
+    width: 100%;
+    border-top: .2rem solid #666b71;
+    margin-top: 3rem;
+}

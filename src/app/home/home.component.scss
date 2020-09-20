@@ -4,35 +4,6 @@ div{
     overflow-x: hidden;
 }
 
-.navbar{
-    font-weight: 700;
-    font-size: .9rem;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-    background-color: rgba(0, 0, 0, 0.9) !important;
-}
-
-.navbar-brand img{
-    height: 2rem;
-}
-
-.navbar-nav li{
-    padding-right: .7rem;
-}
-
-.navbar-dark .navbar-collapse .navbar-nav .nav-item .nav-link{
-    color: white;
-    padding-top: .8rem;
-}
-
-.navbar-dark .navbar-collapse .navbar-nav .nav-item .nav-link.active,
-.navbar-dark .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
-    color: red;
-}
-
-.home-inner{
-}
-
 .caption{
     width: 100%;
     max-width: 100%;
@@ -41,6 +12,17 @@ div{
     z-index: 1;
     color: black;
     text-transform: uppercase;
+}
+
+.prod-button{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+.btn-outline-light {
+    color: black;
+    border-color: red;
 }
 
 .caption h1{
@@ -74,7 +56,7 @@ div{
 header {
     position: relative;
     background-color: black;
-    height: 75vh;
+    height: 100vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
@@ -111,17 +93,42 @@ header {
         width:100%;
         height: auto;
     }
+
+    .productImg{
+        max-width: 70%;
+        height: 320px;
+    }
 }
 @media (max-aspect-ratio: 16/9) {
     #videoBG { 
-        width:auto;
+        width: auto;
         height: 100%;
+    }
+
+    .productImg{
+        max-width: 70%;
+        height: 320px;
+    }
+    
+    .logoImg{
+        max-width: 100px;
+        height: 50px;
     }
 }
 @media (max-width: 767px) {
     #videoBG {
         width:auto;
         height: 100%;
+    }
+
+    .productImg{
+        max-width: 410px;
+        height: 210px;
+    }
+    
+    .logoImg{
+        max-width: 100px;
+        height: 50px;
     }
     /* body {
         background: url('poster.jpg');
@@ -130,15 +137,6 @@ header {
 }
 
 /* course section */
-.narrow{
-    width: 75%;
-    margin: 1.5rem auto;
-    padding-top: 2rem;
-}
-
-.narrow h1{
-    font-size: 2.4rem;
-}
 
 .btn-secondary{
     border-width: medium;
@@ -174,7 +172,7 @@ h3.heading{
 .heading-underline{
     width: 3rem;
     height: .2rem;
-    background-color: #1ebba3;
+    background-color: #e83333;
     margin: 0 auto 2rem;
 }
 
@@ -206,46 +204,4 @@ h3.heading{
 
 .fixed-background p{
     margin-top: 1.5rem;
-}
-
-/* clients section */
-blockquote .sng-inline--fa{
-    color: #1ebba3;
-    margin: 1rem;
-}
-
-.clients-hr{
-border-top: .05rem solid #1ebba3;
-}
-
-/* contact section */
-footer{
-    background-color: #40474e;
-    color: white;
-    padding: 2rem 0 2rem;
-    margin-top: 1rem;
-}
-
-footer img{
-    height: 3rem;
-    margin: 1.5rem 0;
-}
-
-footer a{
-    color: white;
-}
-
-footer svg.svg-inline--fa{
-    font-size: 1.6rem;
-    margin: 1.2rem 0.5rem 0 0;
-}
-
-footer svg.svg-inline--fa:hover{
-    background-color: #1ebba3 !important;
-}
-
-hr.socket{
-    width: 100%;
-    border-top: .2rem solid #666b71;
-    margin-top: 3rem;
 }

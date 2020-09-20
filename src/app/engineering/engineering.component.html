@@ -1,0 +1,187 @@
+<div data-spy="scroll" data-target="#navbarTarget">
+    <div id='banner' class="banner-img">
+        <header>
+            <div class="overlay"></div>
+            <video playsinline="playsinline" id="videoBG" autoplay muted="muted" loop>
+              <source src="" type="video/mp4">
+            </video>
+            <div class="caption text-center">
+                <h1></h1>
+            </div>
+        </header>
+    </div>
+    
+    <!-- Product form -->
+    <div id='product' class="offset">
+        <div class="row">
+            <div class="col-3 form-header-container" style="height: 500px;">
+                <span class="form-header">SERVICE IN PRODUCT ENGINEERING </span>
+            </div>
+            <div class="col-9">
+                <form [formGroup]="productForm" class="form-inline">
+                    <div class="col-6">
+                        <div class="form-group mr-2">
+                            <label class="sr-only" for="inputEmail">Bus Body</label>
+                            <input formControlName="busbody" type="email" class="form-control" id="inputEmail" placeholder="Bus Body">
+                        </div>
+                        <div class="form-group mr-2">
+                            <label class="sr-only" for="inputPassword">Truck Load Body Integration</label>
+                            <input formControlName="truckloadBodyIntegration" type="text" class="form-control" id="inputPassword" placeholder="Truck Load Body Integration">
+                        </div>
+                        <div class="form-group mr-2">
+                            <label class="sr-only" for="inputEmail">Container</label>
+                            <input formControlName="container" type="email" class="form-control" id="inputEmail" placeholder="Container">
+                        </div>
+                        <div class="form-group mr-2">
+                            <label class="sr-only" for="inputPassword">Complete Product Design(PROTO BUILD)</label>
+                            <input formControlName="prototype" type="text" class="form-control" id="inputPassword" placeholder="Complete Product Design(PROTO BUILD)">
+                        </div>
+                        <div class="form-group mr-2">
+                            <label class="sr-only" for="inputEmail">Trailer</label>
+                            <input formControlName="trailer" type="email" class="form-control" id="inputEmail" placeholder="Trailer">
+                        </div>
+                        <div class="form-group mr-2">
+                            <label class="sr-only" for="inputPassword">TIP Trailer</label>
+                            <input formControlName="tiptrailer" type="text" class="form-control" id="inputPassword" placeholder="TIP Trailer">
+                        </div>
+                        <div class="form-group mr-2">
+                            <label class="sr-only" for="inputEmail">Electrical Vehicle Integration</label>
+                            <input formControlName="electricalvehicleIntegration" type="email" class="form-control" id="inputEmail" placeholder="Electrical Vehicle Integration">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group mr-2">
+                            <label class="sr-only" for="inputPassword">Electrical Wiring Harness</label>
+                            <input formControlName="electricalwiringharness" type="text" class="form-control" id="inputPassword" placeholder="Electrical Wiring Harness">
+                        </div>
+                        <div class="form-group mr-2">
+                            <label class="sr-only" for="inputEmail">CAD Legacy Data Conversion</label>
+                            <input formControlName="CAD" type="email" class="form-control" id="inputEmail" placeholder="CAD Legacy Data Conversion">
+                        </div>
+                        <div class="form-group mr-2">
+                            <label class="sr-only" for="inputPassword">Structural Analysis</label>
+                            <input formControlName="structuralAnalysis" type="text" class="form-control" id="inputPassword" placeholder="Structural Analysis">
+                        </div>
+                        <div class="form-group mr-2">
+                            <label class="sr-only" for="inputEmail">Vehicle Integration</label>
+                            <input formControlName="vehicleIntegration" type="email" class="form-control" id="inputEmail" placeholder="Vehicle Integration">
+                        </div>
+                        <div class="form-group mr-2">
+                            <label class="sr-only" for="inputPassword">Benchmarking Compitor Vehicle</label>
+                            <input formControlName="benchmarkingCompitorVehicle" type="text" class="form-control" id="inputPassword" placeholder="Benchmarking Compitor Vehicle">
+                        </div>
+                        <div class="form-group mr-2">
+                            <label class="sr-only" for="inputEmail">PLM Support</label>
+                            <input formControlName="plumSupport" type="email" class="form-control" id="inputEmail" placeholder="PLM Support">
+                        </div>
+                        <div class="form-group mr-2">
+                            <label class="sr-only" for="inputPassword">VA/VE</label>
+                            <input formControlName="va_ve" type="text" class="form-control" id="inputPassword" placeholder="VA/VE">
+                        </div>
+                    </div>
+                    <!-- <div class="form-group mr-2">        
+                        <label><input type="checkbox" class="mr-1"> Remember me</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign in</button> -->
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--  Manufacturing form -->
+    <div id='manufacturing' class="offset">
+        <div class="row">
+            <div class="col-3 form-header-container" style="height: 250px;">
+                <span class="form-header">SERVICES IN MANUFACTURING ENGINEERING</span>
+            </div>
+            <div class="col-9">
+                <form [formGroup]="manufaturingForm" class="form-inline">
+                    <div class="col-6">
+                        <div class="form-group mr-2">
+                            <label class="sr-only" for="inputEmail">PLASTIC DESIGN AND MANUFACTURING</label>
+                            <input formControlName="plastic" type="email" class="form-control" id="inputEmail" placeholder="Plastic Design And Manufacturing">
+                        </div>
+                        <div class="form-group mr-2">
+                            <label class="sr-only" for="inputPassword">SHEET METAL DESIGN AND MANUFACTURING</label>
+                            <input formControlName="sheetMetal" type="text" class="form-control" id="inputPassword" placeholder="Sheet Metal Design And Manufacturing">
+                        </div>
+                        <div class="form-group mr-2">
+                            <label class="sr-only" for="inputEmail">STRUCTURAL DESIGN</label>
+                            <input formControlName="structural" type="email" class="form-control" id="inputEmail" placeholder="Structural Design">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group mr-2">
+                            <label class="sr-only" for="inputPassword">ALUMINUM PART DESIGN AND MANUFACTURING</label>
+                            <input formControlName="alumniumParts" type="text" class="form-control" id="inputPassword" placeholder="Alumnium Part Design And Manufacturing">
+                        </div>
+                        <div class="form-group mr-2">
+                            <label class="sr-only" for="inputEmail">SPECIAL PURPOSE MACHINE</label>
+                            <input formControlName="specialPurpose" type="email" class="form-control" id="inputEmail" placeholder="special Purpose Machine">
+                        </div>
+                        <div class="form-group mr-2">
+                            <label class="sr-only" for="inputPassword">TROLLEY FOR ASSEMBLY LINE</label>
+                            <input formControlName="trolley" type="text" class="form-control" id="inputPassword" placeholder="Trolley For Assembly Line">
+                        </div>
+                    </div>
+                    <!-- <div class="form-group mr-2">        
+                        <label><input type="checkbox" class="mr-1"> Remember me</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign in</button> -->
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Digital form -->
+    <div id="digital" class="offset">
+        <div class="row">
+            <div class="col-3 form-header-container" style="height: 250px">
+                <span class="form-header">SERVICE IN DIGITAL TECHNOLOGIES</span>
+            </div>
+            <div class="col-9">
+                <form [formGroup]="digitalForm" class="form-inline">
+                    <div class="col-6">
+                        <div class="form-group mr-2">
+                            <label class="sr-only" for="inputEmail">OCR(optical character recognition)</label>
+                            <input formControlName="ocr" type="email" class="form-control" id="inputEmail" placeholder="OCR(optical character recognition)">
+                        </div>
+                        <div class="form-group mr-2">
+                            <label class="sr-only" for="inputPassword">IMAGE , VIDEO , AUDIO PROCESS</label>
+                            <input formControlName="dataProcess" type="text" class="form-control" id="inputPassword" placeholder="Image, Video, Audio Process">
+                        </div>
+                        <div class="form-group mr-2">
+                            <label class="sr-only" for="inputEmail">FILE (SCRIPT)</label>
+                            <input formControlName="script" type="email" class="form-control" id="inputEmail" placeholder="File (Script)">
+                        </div>
+                        <div class="form-group mr-2">
+                            <label class="sr-only" for="inputPassword">EXCEL ,WORD</label>
+                            <input formControlName="excelWord" type="text" class="form-control" id="inputPassword" placeholder="Excel, Word">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group mr-2">
+                            <label class="sr-only" for="inputEmail">OS</label>
+                            <input formControlName="os" type="email" class="form-control" id="inputEmail" placeholder="OS">
+                        </div>
+                        <div class="form-group mr-2">
+                            <label class="sr-only" for="inputPassword">PYTHON FRAME WORK FOR AUTOMATING ANY MANUAL PROCESSS</label>
+                            <input formControlName="py" type="text" class="form-control" id="inputPassword" placeholder="Python Frame Work For Automating Any Manual Process">
+                        </div>
+                        <div class="form-group mr-2">
+                            <label class="sr-only" for="inputPassword">Data processing ,data science(filter)</label>
+                            <input formControlName="dataProcessing" type="text" class="form-control" id="inputPassword" placeholder="Data Processing, Data Science(Filter)">
+                        </div>
+                    </div>
+                    <!-- <div class="form-group mr-2">        
+                        <label><input type="checkbox" class="mr-1"> Remember me</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign in</button> -->
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<hr/>
+
+<hr/>

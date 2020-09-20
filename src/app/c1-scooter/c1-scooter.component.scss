@@ -1,0 +1,130 @@
+
+.product-name{
+    color: black;
+    text-transform: uppercase;
+}
+
+.spec-details{
+    font-size: 1rem;
+    margin-bottom: 1%;
+}
+
+.spec-key{
+    color: #d86363;
+    font-weight: 350;
+}
+
+.ml5{
+    margin-left: 5%;
+}
+
+section {
+    padding: 100px 0;
+    position: relative;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+.margin-70px-bottom {
+    margin-bottom: 70px;
+}
+
+.center-col {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-title {
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+.font-weight-700 {
+    font-weight: 700;
+}
+.font-size32 {
+    font-size: 32px;
+    line-height: normal;
+}
+h3 {
+    font-size: 48px;
+    line-height: 54px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 25px;
+    padding: 0;
+    letter-spacing: 0;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #232323;
+}
+
+.border-color-medium-gray {
+    border-color: #e4e4e4 !important;
+}
+.border-bottom {
+    border-bottom: 1px solid #dee2e6!important;
+}
+.border-right {
+    border-right: 1px solid #dee2e6!important;
+}
+
+.padding-20px-lr {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.padding-40px-tb {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.display-inline-block {
+    display: inline-block !important;
+}
+
+.margin-20px-bottom {
+    margin-bottom: 20px;
+}
+
+.text-extra-dark-gray {
+    color: #232323;
+}
+.font-size36 {
+    font-size: 36px;
+    line-height: normal;
+}
+
+.margin-10px-bottom {
+    margin-bottom: 10px;
+}
+.text-extra-dark-gray {
+    color: #232323;
+}
+.font-size18 {
+    font-size: 18px;
+    line-height: 26px;
+}
+.alt-font {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.width-85 {
+    width: 85%;
+}
+.no-margin-bottom {
+    margin-bottom: 0 !important;
+}
+.center-col {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    margin: 0 0 25px;
+    font-size: 14px;
+    line-height: 1.7;
+    word-spacing: 1px;
+}
