@@ -10,9 +10,9 @@ import { EngineeringComponent } from './engineering/engineering.component';
 const routes: Routes = [
   {'path': '', component: HomeComponent, pathMatch: 'full' },
   {'path': 'home', component: HomeComponent },
-  {'path': 'products', component: ProductsComponent },
-  {'path': 'c1', component: C1ScooterComponent },
-  {'path': 'force', component: ForceScooterComponent },
+  // {'path': 'products', component: ProductsComponent },
+  // {'path': 'c1', component: C1ScooterComponent },
+  // {'path': 'force', component: ForceScooterComponent },
   {'path': 'about', component: AboutComponent },
   {'path': 'engineering-services', component: EngineeringComponent }
 ];

@@ -1,6 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
 
+@font-face {
+  font-family: "Px Grotesk Regular";
+  src: local("Px Grotesk Regular"), url(./assets/fonts/Px-Grotesk-Regular/Px-Grotesk-Regular.ttf) format("truetype");
+}
+
 .narrow{
     width: 75%;
     margin: 1.5rem auto;
