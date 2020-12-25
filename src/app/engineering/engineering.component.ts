@@ -4,7 +4,7 @@ import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms'
 @Component({
   selector: 'app-engineering',
   templateUrl: './engineering.component.html',
-  styleUrls: ['./engineering.component.scss']
+  styleUrls: ['./engineering.component.css']
 })
 export class EngineeringComponent implements OnInit {
 
@@ -14,8 +14,12 @@ export class EngineeringComponent implements OnInit {
 
   constructor(private _fb: FormBuilder) { 
     this.productForm = this.initProductForm();
+    this.productForm.disable();
     this.manufaturingForm = this.initManufacturingForm();
+    this.manufaturingForm.disable();
     this.digitalForm = this.initDigitalForm();
+    this.digitalForm.disable();
+    
   }
 
   ngOnInit() {}
